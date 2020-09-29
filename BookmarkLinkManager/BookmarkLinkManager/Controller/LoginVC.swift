@@ -23,6 +23,7 @@ class LoginVC: UIViewController {
     @IBAction func logInPressed(_ sender: Any) {
         if let email = emailTextInput.text ,let password = passwordTextInput.text {
             do {
+                //Call api
                 try appApi.login("abc@gmail.com", "password")
             } catch ApiErrorError.emptyParams(let msg){
                 print(msg)
