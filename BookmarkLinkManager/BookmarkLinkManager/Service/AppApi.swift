@@ -62,7 +62,7 @@ struct AppApi {
                     let convertedData = try parseJSON(receivedData)
                     if let message =  convertedData?.error, !message.isEmpty {
                         delegate?.fetchFail(ApiErrorError.fetchFailWithError(message))
-                        return
+                        return 
                     }
                     delegate?.fetchSuccessData(convertedData as Any)
                 } catch {
