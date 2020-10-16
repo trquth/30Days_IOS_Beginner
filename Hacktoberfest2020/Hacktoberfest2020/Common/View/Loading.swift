@@ -5,4 +5,8 @@
 //  Created by Thien Tran on 10/16/20.
 //
 
-import Foundation
+import UIKit
+
+class LoadingView {
+    
+}
