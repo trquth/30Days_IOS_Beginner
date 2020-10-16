@@ -7,6 +7,8 @@ func lend<T> (closure:(T)->()) -> T where T:NSObject {
     return orig
 }
 
+
+
 class ViewController: UIViewController, UITextViewDelegate {
     @IBOutlet var tv : UITextView!
     var scrollView : UIScrollView! {
