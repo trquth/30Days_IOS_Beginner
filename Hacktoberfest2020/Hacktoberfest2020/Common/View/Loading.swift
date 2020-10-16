@@ -10,4 +10,6 @@ import UIKit
 class LoadingView {
     //Mark : Properties
     //Mark : Handler
+    
+    
 }
